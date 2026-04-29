@@ -1,6 +1,6 @@
 import requests
 
-BASE_URL = "http://localhost:5000"
+BASE_URL = "https://task-app-13067289558.asia-south1.run.app"
 
 def test_home():
     r = requests.get(BASE_URL + "/")
